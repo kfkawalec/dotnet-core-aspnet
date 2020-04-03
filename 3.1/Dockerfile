@@ -6,6 +6,6 @@ RUN apt-get update \
         telnet \
         iputils-ping \
         nano \
-        envsubst \
+        gettext-base \
     && apt-get clean \
     && rm -r /var/lib/apt/lists/*
